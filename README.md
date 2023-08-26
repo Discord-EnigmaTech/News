@@ -1,3 +1,3 @@
 # News
 
-tech News pour le site Enigmatech
+News tech pour le site Enigmatech
