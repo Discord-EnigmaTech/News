@@ -1,38 +1,32 @@
-// Function to generate a card element based on the provided data
-function generateCard(data) {
-    return `
-    <a href="${data.link}" target="_blank">
-        <div class="card">
-            <div class="card-banner">
-                <p class="category-tag ${data.category.toLowerCase()}">${data.category}</p>
-                <img class="banner-img" src="${data.bannerImageUrl}" alt="">
-            </div>
-            <div class="card-body">
-                <p class="blog-hashtag">${data.hashtags.join(' ')}</p>
-                <h2 class="blog-title">${data.title}</h2>
-                <p class="blog-description">${data.description}</p>
-
-                <div class="card-profile">
-                    <img class="profile-img" src="${data.profileImageUrl}" alt="">
-                    <div class="card-profile-info">
-                        <h3 class="profile-name">${data.profileName}</h3>
-                        <p class="profile-followers">${data.profileFollowers}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-    `;
-}
-
-// Function to load and render the cards from the JSON data
-function renderCards() {
+function generateAndRenderCards() {
     fetch("../json/news.json")
         .then(response => response.json())
         .then(data => {
             const wrapper = document.querySelector('.wrapper');
             data.forEach(item => {
-                const cardHTML = generateCard(item);
+                const cardHTML = `
+                    <a href="${item.link}" target="_blank">
+                        <div class="card">
+                            <div class="card-banner">
+                                <p class="category-tag ${item.category.toLowerCase()}">${item.category}</p>
+                                <img class="banner-img" src="${item.bannerImageUrl}" alt="">
+                            </div>
+                            <div class="card-body">
+                                <p class="blog-hashtag">${item.hashtags.join(' ')}</p>
+                                <h2 class="blog-title">${item.title}</h2>
+                                <p class="blog-description">${item.description}</p>
+    
+                                <div class="card-profile">
+                                    <img class="profile-img" src="${item.profileImageUrl}" alt="">
+                                    <div class="card-profile-info">
+                                        <h3 class="profile-name">${item.profileName}</h3>
+                                        <p class="profile-followers">${item.profileFollowers}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                `;
                 wrapper.insertAdjacentHTML('beforeend', cardHTML);
             });
         })
@@ -41,5 +35,5 @@ function renderCards() {
         });
 }
 
-// Call the renderCards function to load and display the cards
-renderCards();
+// Call the combined function to generate and render the cards
+generateAndRenderCards();
