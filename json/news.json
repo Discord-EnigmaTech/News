@@ -1,13 +1,57 @@
 [
     {
+      "category": "Populaire",
+      "bannerImageUrl": "https://www.tomshardware.fr/content/uploads/sites/3/2023/10/CS23.jpg.webp",
+      "hashtags": ["#tech", "#gaming", "#CS2"],
+      "title": "Counter-Strike 2 : Valve sauve les joueurs injustement condamnés par l'Anti-Lag+ d'AMD",
+      "description": "AMD a désactivé l'Anti-Lag+ avec son dernier pilote. Afin d'éviter toute nouvelle victime, Valve vérifie désormais les pilotes des Radeon lors du lancement de Counter-Strike 2. Pour ceux ayant déjà été bannis, la rédemption est en cours.      ",
+      "profileImageUrl": "https://www.tomshardware.fr/content/uploads/sites/3/2023/03/IMG-20221005-WA0012-120x120.jpg.webp",
+      "profileName": "RÉMI BOUVET",
+      "date": "20 octobre 2023 16:05",
+      "link": "https://www.tomshardware.fr/counter-strike-2-valve-sauve-les-joueurs-injustement-condamnes-par-lanti-lag-damd/"
+    },
+    {
+      "category": "Tech",
+      "bannerImageUrl": "https://www.tomshardware.fr/content/uploads/sites/3/2023/10/pexels-zana-latif-18525574-1536x1102.jpg.webp",
+      "hashtags": ["#IA", "#loiciel", "#apple"],
+      "title": "iOS 18 : Apple voudrait rattraper son retard et proposer des iPhone 16 boostés à l'IA      ",
+      "description": "En retard sur le sujet de l'intelligence artificielle, Apple serait prêt à rattraper le temps perdu en proposant une mise à jour iOS 18 boostée à l'intelligence artificielle. Disponible pour les iPhone 16, ces nouvelles fonctionnalités devraient sortir dès 2024.      ",
+      "profileImageUrl": "https://www.tomshardware.fr/content/uploads/sites/3/2023/10/Vincent-TH-120x120.jpg.webp",
+      "profileName": "VINCENT BONNAL",
+      "date": "20 octobre 2023 15:24",
+      "link": "https://www.tomshardware.fr/ios-18-apple-voudrait-rattraper-son-retard-et-proposer-des-iphone-16-boostes-a-lia/"
+    },
+    {
+      "category": "Populaire",
+      "bannerImageUrl": "https://www.tomshardware.fr/content/uploads/sites/3/2023/10/DALL-E-OEIL.jpeg.webp",
+      "hashtags": ["#ia", "#ChatGPT", "#vision"],
+      "title": "L'union de ChatGPT et Dall-E est enfin disponible mais uniquement si vous payez      ",
+      "description": "OpenAI vient d'officialiser l'intégration totale de DALL-E 3, le générateur d'image alimenté par l'intelligence artificielle directement dans ChatGPT, son homologue spécialisé dans la génération de texte.      ",
+      "profileImageUrl": "https://www.tomshardware.fr/content/uploads/sites/3/2023/10/Vincent-TH-120x120.jpg.webp",
+      "profileName": "VINCENT BONNAL",
+      "date": "20 octobre 2023 13:21",
+      "link": "https://www.tomshardware.fr/lunion-de-chatgpt-et-dall-e-est-enfin-disponible-mais-uniquement-si-vous-payez/"
+    },
+    {
+      "category": "Populaire",
+      "bannerImageUrl": "https://www.tomshardware.fr/content/uploads/sites/3/2023/10/The-Last-of-Us-Part-2-1536x960.jpg.webp",
+      "hashtags": ["#gaming", "#action-aventure", "#sélection"],
+      "title": "Les meilleurs jeux et franchises d'action-aventure de tous les temps      ",
+      "description": "Depuis la création du jeu vidéo, le genre du jeu d'action/aventure a vu débarquer de très nombreuses pépites dans son escarcelle, pour des propositions diverses et variées. À travers cette nouvelle sélection des plus grandes épopées du jeu vidéo, vous allez voir du pays !      ",
+      "profileImageUrl": "https://www.tomshardware.fr/content/uploads/sites/3/2023/10/Photo-120x120.jpg.webp",
+      "profileName": "ADRIEN DEYRES",
+      "date": "18 octobre 2023 11:34",
+      "link": "https://www.tomshardware.fr/les-50-meilleurs-jeux-et-franchises-daction-aventure-de-tous-les-temps/"
+    },
+    {
       "category": "Internet",
       "bannerImageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/10/solar_orbiter/20813938-1-eng-GB/Solar_Orbiter_pillars.jpg",
       "hashtags": ["#sony", "#tech", "#playstation"],
-      "title": "Solar Orbiter a peut-être découvert la source d’énergie du vent solaire",
+      "title": "Solar Orbiter a peut-être découvert la source d'énergie du vent solaire",
       "description": "Le satellite d'observation du Soleil de l'Agence spatiale européenne a découvert une multitude de minuscules jets de matière s'échappant de l'atmosphère extérieure du Soleil qui pourraient être la source du vent solaire.",
       "profileImageUrl": "https://sf2.cnetfrance.fr/wp-content/uploads/cnet/2023/06/portrait_marc1-150x150.jpg",
       "profileName": "Marc ZAFFAGNI",
-      "profileFollowers": "25 août 2023",
+      "date": "25 août 2023",
       "link": "https://www.cnetfrance.fr/news/solar-orbiter-a-peut-etre-decouvert-la-source-denergie-du-vent-solaire-374680.htm"
     },
     {
@@ -18,7 +62,7 @@
       "description": "La valorisation de la start-up franco-américaine basée à New York vient de doubler, atteignant 4,5 milliards de dollars. Elle a séduit des acteurs majeurs du numérique et de la tech avec sa plateforme open source.",
       "profileImageUrl": "https://www.cnetfrance.fr/wp-content/themes/cnet-zdnet/cnet/assets/images/default_author_img.png",
       "profileName": "Aurélien Defer",
-      "profileFollowers": "25 août 2023",
+      "date": "25 août 2023",
       "link": "https://www.usine-digitale.fr/article/la-start-up-d-ia-hugging-face-leve-235-millions-de-dollars-aupres-de-google-amazon-nvidia.N2163142"
     },
     {
@@ -29,7 +73,7 @@
       "description": "La stratégie de Netflix contre le partage de mot de passe est toujours aussi lucrative pour le service de streaming qui voit son nombre d'abonnés continuer de s'accroître.      ",
       "profileImageUrl": "https://www.cnetfrance.fr/wp-content/themes/cnet-zdnet/cnet/assets/images/default_author_img.png",
       "profileName": "Marine Pérot",
-      "profileFollowers": "24 août 2023",
+      "date": "24 août 2023",
       "link": "https://www.cnetfrance.fr/news/la-fin-du-partage-de-compte-continue-daugmenter-le-nombre-dabonnes-a-netflix-374599.htm"
     },
     {
@@ -40,7 +84,7 @@
       "description": "Disponible plus tard cette année pour 220€, la console de streaming portable pour PS5 est-elle une extension digne de la PlayStation 5 ?",
       "profileImageUrl": "https://sf2.cnetfrance.fr/wp-content/uploads/cnet/2023/06/portrait_marc1-150x150.jpg",
       "profileName": "Marc ZAFFAGNI",
-      "profileFollowers": "24 août 2023",
+      "date": "24 août 2023",
       "link": "https://www.cnetfrance.fr/news/playstation-portal-la-prise-en-main-374595.htm"
     },
     {
@@ -51,18 +95,18 @@
       "description": "De nouvelles puces vont rejoindre la gamme Snapdragon G Series de Qualcomm. L'entreprise américaine continue sur sa lancée pour imposer un segment premium dans le jeu vidéo mobile.",
       "profileImageUrl": "https://www.cnetfrance.fr/wp-content/themes/cnet-zdnet/cnet/assets/images/default_author_img.png",
       "profileName": "Aurélien Defer",
-      "profileFollowers": "23 août 2023",
+      "date": "23 août 2023",
       "link": "https://www.usine-digitale.fr/article/qualcomm-devoile-une-nouvelle-gamme-de-processeurs-pour-le-jeu-video-mobile-next-gen.N2162332"
     },
     {
       "category": "Internet",
-      "bannerImageUrl": "https://i.ytimg.com/vi/YwIX8w9i2DM/maxresdefault.jpg",
+      "bannerImageUrl": "https://cdn.vox-cdn.com/thumbor/kyt76p4DfxkmZUa_Dj_e4fQw4ro=/0x0:2560x1440/2000x1333/filters:focal(1280x720:1281x721)/cdn.vox-cdn.com/uploads/chorus_asset/file/24865497/Y6JVgdE.png",
       "hashtags": ["#cloud", "#microsoft", "#logiciels"],
       "title": "Le langage de programmation Python débarque en test dans Microsoft Excel",
       "description": "Microsoft s'est associé à Anaconda, la plateforme de distribution libre et open source du langage de programmation Python. Les utilisateurs d'Excel pourront s'en servir directement dans leurs tableurs pour de l'analyse de données.",
       "profileImageUrl": "https://www.cnetfrance.fr/wp-content/themes/cnet-zdnet/cnet/assets/images/default_author_img.png",
       "profileName": "Aurélien Defer",
-      "profileFollowers": "23 août 2023",
+      "date": "23 août 2023",
       "link": "https://www.usine-digitale.fr/article/le-langage-de-programmation-python-debarque-en-test-sur-les-tableurs-de-microsoft-excel.N2162497"
     }
   ]

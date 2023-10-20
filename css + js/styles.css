@@ -318,7 +318,7 @@ section#section1 h2 {
   font-size: 1rem;
 }
 
-.profile-followers {
+.date {
   color: var(--clr-gray-med);
   font-size: 0.9rem;
 }
