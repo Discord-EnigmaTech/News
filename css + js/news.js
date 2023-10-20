@@ -20,7 +20,7 @@ function generateAndRenderCards() {
                                     <img class="profile-img" src="${item.profileImageUrl}" alt="">
                                     <div class="card-profile-info">
                                         <h3 class="profile-name">${item.profileName}</h3>
-                                        <p class="profile-followers">${item.profileFollowers}</p>
+                                        <p class="date">${item.date}</p>
                                     </div>
                                 </div>
                             </div>
