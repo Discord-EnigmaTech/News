@@ -211,7 +211,7 @@ section#section1 h2 {
   margin-top: 100px;
 }
 
-.wrapper {
+#newsContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -234,7 +234,7 @@ section#section1 h2 {
   .smooth {
     padding: 0 !important;
   }
-  .wrapper {
+  #newsContainer {
     max-width: 95vw;
     padding: 2rem;
   }
@@ -257,6 +257,7 @@ section#section1 h2 {
   position: absolute;
   object-fit: cover;
   height: 14rem;
+  top: 0;
   width: 100%;
 }
 
@@ -297,18 +298,22 @@ section#section1 h2 {
 
 .blog-title {
   line-height: 1.5rem;
-  margin: 1rem 0 1rem 0;
+  margin: 1rem 0 5rem 0;
 }
 
 .blog-description {
   color: var(--clr-gray-med);
   font-size: 0.9rem;
+  margin-bottom: 5rem;
 }
 
 .card-profile {
+  position: absolute;
   display: flex;
   margin-top: 2rem;
   align-items: center;
+  bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .profile-img {
