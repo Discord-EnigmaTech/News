@@ -298,13 +298,13 @@ section#section1 h2 {
 
 .blog-title {
   line-height: 1.5rem;
-  margin: 1rem 0 5rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
-.blog-description {
+.description {
   color: var(--clr-gray-med);
   font-size: 0.9rem;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem !important;
 }
 
 .card-profile {
