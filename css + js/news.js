@@ -1,4 +1,4 @@
-const apiKey = "pub_354950e787697d57d1463fa7fed8e8714345e ";
+const apiKey = "pub_35495bbdd8da1f238b076e657ecf02be6b354";
 const apiUrl = `https://newsdata.io/api/1/news?apikey=${apiKey}&language=fr&category=technology`;
 const localJsonUrl = "./json/news.json";
 
