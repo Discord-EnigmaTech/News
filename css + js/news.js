@@ -45,16 +45,17 @@ function renderNewsFromJson(articles) {
         ? keywords[Math.floor(Math.random() * keywords.length)].toLowerCase()
         : categoryTags[Math.floor(Math.random() * categoryTags.length)];
 
-    const categoryOptions = ["populaire", "tech", "internet"];
-    const randomCategoryClass =
-      categoryOptions[Math.floor(Math.random() * categoryOptions.length)];
+    function getRandomCategoryClass() {
+      const randomIndex = Math.floor(Math.random() * categoryTags.length);
+      return categoryTags[randomIndex];
+    }
 
     articleDiv.className = "card";
 
     articleDiv.innerHTML = `
       <a href="${article.link}" target="_blank">
         <div class="card-banner">
-          <p class="category-tag ${randomCategoryClass}-tag">${randomCategoryTag}</p>
+          <p class="category-tag ${getRandomCategoryClass()}">${randomCategoryTag}</p>
           <img class="banner-img" src="${
             article.image_url
               ? article.image_url
